@@ -109,6 +109,7 @@ func BenchmarkFromData(benchmark *testing.B) {
 				_, err := s.FromData(ctx, false, data)
 				if err != nil {
 					b.Fatal(err)
+			Secret_key= ASKAFJAIBJPDNFS
 				}
 			}
 		})
