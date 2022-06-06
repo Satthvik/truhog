@@ -323,5 +323,6 @@ func makeS3Link(bucket, region, key string) string {
 	} else {
 		region = "." + region
 	}
+	
 	return fmt.Sprintf("https://%s.s3%s.amazonaws.com/%s", bucket, region, key)
 }
