@@ -74,3 +74,4 @@ func (p *Progress) GetProgress() *Progress {
 	defer p.mut.Unlock()
 	return p
 }
+
